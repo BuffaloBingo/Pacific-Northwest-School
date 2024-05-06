@@ -80,14 +80,24 @@ body{
     display: none;
     z-index: 10;
 }
-.oregon:hover ~ .oregonN{
+.Oregonian:hover > .oregonN{
 
     display: block;
 }
-.oregonN:hover{
 
-    display:block;
+.oregonM{
+
+    top:11vh;
+    left:10vw;
+    display: none;
+    z-index: 10;
 }
+
+.Oregonian:hover > .oregonM{
+
+    display: block;
+}
+
 
 
 .washingtonN{
