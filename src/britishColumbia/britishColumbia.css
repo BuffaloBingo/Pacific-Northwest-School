@@ -1,3 +1,55 @@
 body{
     background-image: linear-gradient(#CF0820,#FFD800,#002680);
 }
+.MapBC{
+    width:25vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    top:20vh;
+    left:1vw;
+}
+
+.MapBC:hover{
+    width:40vw;
+}
+.FlagBC{
+    width:30vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    top:20vh;
+    right:1vw;
+}
+
+.FlagBC:hover{
+    width:50vw;
+}
+
+.Select{
+    width:5vw;
+    height:5vh;
+    background-color: lightgreen;
+    border: dotted;
+    border-width: 3px;
+    border-radius: 5px;
+
+    top:10px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+.home{
+    left:1vw;
+}
+.Home{
+    position: relative;
+    top:0.8vh;
+}
