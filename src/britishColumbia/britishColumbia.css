@@ -1,5 +1,7 @@
 body{
     background-image: linear-gradient(#CF0820,#FFD800,#002680);
+    height: 102vh;
+    text-align: center;
 }
 .MapBC{
     width:25vw;
@@ -9,7 +11,7 @@ body{
     border-radius: 40px;
     transition: 1s;
     position: absolute;
-    top:20vh;
+    top:15vh;
     left:1vw;
 }
 
@@ -24,7 +26,7 @@ body{
     border-radius: 40px;
     transition: 1s;
     position: absolute;
-    top:20vh;
+    top:15vh;
     right:1vw;
 }
 
@@ -33,7 +35,7 @@ body{
 }
 
 .Select{
-    width:5vw;
+    width:8vw;
     height:5vh;
     background-color: lightgreen;
     border: dotted;
@@ -52,7 +54,7 @@ body{
 }
 
 .oregon{
-    left:6vw;
+    left:10vw;
 }
 
 .text{
@@ -63,17 +65,102 @@ body{
 
 }
 
+.washington{
+    left:19vw;
+}
+.columbia{
+    left:28vw;
+}
+
 
 .oregonN{
-    transition: 0.5s;
-    opacity: 0;
+
     top:6vh;
-    left:6vw;
+    left:10vw;
+    display: none;
+    z-index: 10;
 }
 .oregon:hover ~ .oregonN{
-    opacity: 1;
+
+    display: block;
 }
 .oregonN:hover{
-    opacity: 1;
+
+    display:block;
 }
 
+
+.washingtonN{
+
+    top:6vh;
+    left:19vw;
+    display: none;
+    z-index: 10;
+}
+.washington:hover ~ .washingtonN{
+
+    display: block;
+}
+.washingtonN:hover{
+
+    display:block;
+}
+
+.columbiaN{
+
+    top:6vh;
+    left:28vw;
+    display: none;
+    z-index: 10;
+}
+.columbia:hover ~ .columbiaN{
+
+    display: block;
+}
+.columbiaN:hover{
+
+    display:block;
+}
+
+h1{
+    position: absolute;
+    top:4vh;
+    font-size: 50px;
+    width: 100%;
+}
+
+.open{
+    position: absolute;
+    top:14vh;
+    width: 30vw;
+    left: 32vw;
+}
+p{
+    font-size: 30px;
+}
+
+.Ker{
+    width:10vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    bottom:4vh;
+    right:1vw;
+}
+.Ker:hover{
+    width:15vw;
+}
+
+sub{
+    position: absolute;
+    bottom:0vh;
+    right:1vw;
+}
+
+.Nature{
+    top:80vh;
+    left:35vw;
+}
