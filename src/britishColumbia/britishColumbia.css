@@ -40,16 +40,40 @@ body{
     border-width: 3px;
     border-radius: 5px;
 
-    top:10px;
+    top:1vh;
     position: absolute;
     text-align: center;
-    text-decoration: none;
+
+
 }
 
 .home{
     left:1vw;
 }
-.Home{
-    position: relative;
-    top:0.8vh;
+
+.oregon{
+    left:6vw;
 }
+
+.text{
+    position: relative;
+    top:1.3vh;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.oregonN{
+    transition: 0.5s;
+    opacity: 0;
+    top:6vh;
+    left:6vw;
+}
+.oregon:hover ~ .oregonN{
+    opacity: 1;
+}
+.oregonN:hover{
+    opacity: 1;
+}
+
