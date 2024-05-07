@@ -98,6 +98,17 @@ body{
     display: block;
 }
 
+.oregonC{
+    top:16vh;
+    left:10vw;
+    display: none;
+    z-index: 10;
+}
+
+.Oregonian:hover > .oregonC{
+    display: block;
+}
+
 
 
 .washingtonN{
@@ -107,14 +118,36 @@ body{
     display: none;
     z-index: 10;
 }
-.washington:hover ~ .washingtonN{
+.Washingtonion:hover > .washingtonN{
 
     display: block;
 }
-.washingtonN:hover{
 
-    display:block;
+
+.washingtonM{
+
+    top:11vh;
+    left:19vw;
+    display: none;
+    z-index: 10;
 }
+
+.Washingtonion:hover > .washingtonM{
+
+    display: block;
+}
+
+.washingtonC{
+    top:16vh;
+    left:19vw;
+    display: none;
+    z-index: 10;
+}
+
+.Washingtonion:hover > .washingtonC{
+    display: block;
+}
+
 
 .columbiaN{
 
@@ -123,14 +156,35 @@ body{
     display: none;
     z-index: 10;
 }
-.columbia:hover ~ .columbiaN{
+.Columbian:hover > .columbiaN{
 
     display: block;
 }
-.columbiaN:hover{
 
-    display:block;
+.columbiaM{
+
+    top:11vh;
+    left:28vw;
+    display: none;
+    z-index: 10;
 }
+
+.Columbian:hover > .columbiaM{
+
+    display: block;
+}
+
+.columbiaC{
+    top:16vh;
+    left:28vw;
+    display: none;
+    z-index: 10;
+}
+
+.Columbian:hover > .columbiaC{
+    display: block;
+}
+
 
 h1{
     position: absolute;
