@@ -1,3 +1,10 @@
+
+/* Should not conflict with navbar :P */
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body{
     background-image: linear-gradient(#CF0820,#FFD800,#002680);
     height: 102vh;
