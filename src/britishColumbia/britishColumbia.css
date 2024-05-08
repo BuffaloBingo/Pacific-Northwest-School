@@ -20,7 +20,7 @@ body{
 .MapBC:hover{
     width:40vw;
 }
-.nuke{
+.BCRock{
     width:40vw;
     border: black;
     border: solid;
@@ -28,14 +28,12 @@ body{
     border-radius: 40px;
     transition: 1s;
     position: absolute;
-    top:20vh;
+    bottom:5vh;
     left:1vw;
-
 }
-.nuke:hover{
+.BCRock:hover{
     width:60vw;
 }
-
 .BCIce{
     width:20vw;
     border: black;
@@ -49,6 +47,20 @@ body{
 }
 .BCIce:hover{
     width:30vw;
+}
+.MBCRock{
+    width:10vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    top:40vh;
+    left:1vw;
+}
+.MBCRock:hover{
+    width:20vw;
 }
 .FlagBC{
     width:30vw;
