@@ -15,8 +15,40 @@ body{
     left:1vw;
 }
 
+
+
 .MapBC:hover{
     width:40vw;
+}
+.nuke{
+    width:40vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    top:20vh;
+    left:1vw;
+
+}
+.nuke:hover{
+    width:60vw;
+}
+
+.BCIce{
+    width:20vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    bottom:5vh;
+    right:1vw;
+}
+.BCIce:hover{
+    width:30vw;
 }
 .FlagBC{
     width:30vw;
@@ -218,10 +250,18 @@ p{
     width:15vw;
 }
 
-sub{
+.Kmode{
     position: absolute;
     bottom:0vh;
     right:1vw;
+    
+}
+
+.BEEGRock{
+    position: absolute;
+    bottom: 0vh;
+    left:1vw;
+    color:white;
 }
 
 .Nature{
@@ -238,4 +278,11 @@ sub{
     top:80vh;
     left:53vw;
     z-index: -1;
+}
+
+.NASDAQ{
+    position: absolute;
+    top:20vh;
+    left:10vw;
+    width:80vw;
 }
