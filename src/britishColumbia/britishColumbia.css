@@ -34,6 +34,34 @@ body{
 .BCRock:hover{
     width:60vw;
 }
+.BCPar{
+    width:30vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    bottom:5vh;
+    left:1vw;
+}
+.BCPar:hover{
+    width: 35vw;
+}
+.BCToe{
+    width:15vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    bottom:5vh;
+    right:1vw;
+}
+.BCToe:hover{
+    width: 25vw;
+}
 .BCIce{
     width:20vw;
     border: black;
@@ -47,6 +75,20 @@ body{
 }
 .BCIce:hover{
     width:30vw;
+}
+.BCD{
+    width:20vw;
+    border: black;
+    border: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    transition: 1s;
+    position: absolute;
+    bottom:5vh;
+    right:35vw;
+}
+.BCD:hover{
+    width:25vw;
 }
 .MBCRock{
     width:10vw;
@@ -275,7 +317,18 @@ p{
     left:1vw;
     color:white;
 }
-
+.OH{
+    position: absolute;
+    bottom: 0vh;
+    right:1vw;
+    color:white;
+}
+.Whistle{
+    position: absolute;
+    bottom: 0vh;
+    right:45vw;
+    color:white;
+}
 .Nature{
     top:80vh;
     left:35vw;
