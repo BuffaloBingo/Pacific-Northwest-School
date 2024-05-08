@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: repeating-linear-gradient(45deg, forestgreen 20%, darkgreen 25%);
+}
+
+div.main-container {
+  margin: 2vw;
+}
+
+div#navbar,
+div#navbar * {
+  background-color: beige;
+}
+
+div#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+hr {
+  border-image: linear-gradient(to right, black, 50%, #0a6fa9) 30;
+  border-image-repeat: no-repeat;
+  border-width: 2px;
+  border-style: solid;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+a:hover {
+  color: black;
+}
+
+div#navbar a {
+  padding: 2vw;
+  padding-top: 0;
+  text-align: center;
+}
+
+div#BCLink, div#WALink, div#ORLink {
+  position: absolute;
+  padding: 1vw;
+  text-align: center;
+  display: none;
+  z-index: 10;
+}
+
+a.dropBC:hover~div#BCLink,
+div#BCLink:hover, a.dropWA:hover~div#WALink,
+div#WALink:hover, a.dropOR:hover~div#ORLink, div#ORLink:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  white-space: pre-wrap;
+  position: relative;
+}
+
+p.citation::before {
+  content: "Source: ";
+}
+
+p.note::before {
+  content: "Note: ";
+}
+
+h1 {
+  padding: 5vw;
+  background-position-y: -10vw;
+  /* Please ignore code.org not knowing what certain properties are. background-position-y is a real property. https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-y */
+  color: white;
+  text-align: center;
+  margin: 0;
+  background-size: 100%;
+  background-image: url(north-cascades-np.jpg);
+  background-repeat: no-repeat;
+}
+
+img.main-image {
+  float: left;
+  border: 2px grey solid;
+  border-radius: 20px;
+  box-shadow: 3px 5px black;
+}
