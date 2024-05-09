@@ -1,4 +1,16 @@
+body {
+  background-image: url('https://w.forfun.com/fetch/b7/b76540fe5d7cc62f5c47cb587ca1a790.jpeg');
+}
+
 h1 {
   font-size: 70px;
   text-align: center;
 }
+
+#Map {
+  color: white;
+ }
+ 
+ #animal {
+   color: white;
+ }
