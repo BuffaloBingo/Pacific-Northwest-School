@@ -77,7 +77,7 @@ h1 {
   text-align: center;
   margin: 0;
   background-size: 100%;
-  background-image: url(north-cascades-np.jpg);
+  background-image: url("resources/north-cascades-np.jpg");
   background-repeat: no-repeat;
 }
 
